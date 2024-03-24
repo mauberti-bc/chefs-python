@@ -20,7 +20,7 @@ myThirdForm = CHEFSForm(form_id="form3", api_key="")
 
 ### Getting data from submissions
 
-After creating a CHEFSForm instance, you can use the ```get_submission_data()``` method to get the form's submissions.
+After creating a CHEFSForm instance, you can use the ```list_submissions()``` method to get the form's submissions.
 
 ```
 myForm = CHEFSForm(form_id="", api_key="")
